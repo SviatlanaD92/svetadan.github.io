@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* .heder {
+    position: relative;
+} */
+nav {
+    height: 51px;
+    background: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.menu .menu_link { /* стилизация ссылки */
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.menu .menu_item { /* разделители */
+    border-right: 2px dotted black;
+    padding:0 10px;
+}
+.subheader {
+    position: absolute; /* поднимаем картинку выше на блок */
+    width: 100%;
+
+    /* position: relative;  для второго варианта */
+    height: 84px;
+    background-color: rgba(0,0,0, .6);
+
+    z-index: 2;
+}
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_official {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.5;
+    color: #FFFFFF; 
+}
+.subheader .subheader_call {
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 12px;
+}
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 162px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+  
+}
+.promo {
+    min-height: 800px;
+    background: url('../img/bg/uber_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+/* 
+    transform: translateY(-84px);  поднять блок выше  
+    z-index: 1; */
+}
+.promo .promo_header { 
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+.promo .promo_subheader {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 22px;
+}
+.promo .promo_descr {
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    
+    width: 259px;
+    height: 63px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+}
+.work {
+    padding: 18px 0 65px 0;
+    position: relative;
+}
+
+.work .work_benefits {
+    width: 115px;
+    height: 27px;
+    margin: 0 auto;
+    background: #000000;
+
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.work .work_header {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+
+}
+/* .work .block {
+    display: inline-block;
+    position: absolute;
+     width: 10%;
+} */
+.work .circle {
+    display: flex; /*  устанавливаем иконку в центре круга */
+    justify-content: center;/*  */
+    align-items: center;/*  */
+    margin: 0 auto;
+
+    
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 50%;   
+}
+  
+.work .work_subheader {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+.work .work_descr {
+    margin-bottom: 45px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+
+}
+
